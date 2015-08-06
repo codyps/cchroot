@@ -1,0 +1,6 @@
+#! /bin/sh
+# ex: sts=8 sw=8 ts=8 noet
+set -eu -o pipefail
+
+. "$(dirname $0)"/config.sh
+bin cchroot main.c

@@ -1,0 +1,6 @@
+.ninja*
+build.ninja
+
+
+cchroot
+*.[od]
